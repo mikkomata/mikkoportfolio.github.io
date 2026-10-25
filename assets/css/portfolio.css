@@ -246,3 +246,70 @@ h3,
     border-bottom-color: var(--line);
   }
 }
+
+/* PERSONAL BRAND — SLATE AND MIDNIGHT BLUE */
+
+:root {
+  --green: #64748B;
+  --green2: #475569;
+}
+
+.eyebrow,
+h1 span,
+h2 span,
+.status-dot,
+.card-index,
+.cap-number,
+.about-stamp span,
+.legacy-mark span,
+.card-link,
+.nav-cta span,
+.hero-bottom a {
+  color: #475569;
+}
+
+.button-primary {
+  background: #142B4A;
+  color: #FFFFFF;
+}
+
+.button-primary:hover {
+  background: #263F60;
+}
+
+.brand-mark {
+  color: #142B4A;
+  background: #E9EEF3;
+  border-color: rgba(20, 43, 74, 0.22);
+}
+
+.nav a:hover,
+.text-link:hover,
+.footer-links a:hover {
+  color: #475569;
+}
+
+.work-card:hover {
+  border-color: rgba(71, 85, 105, 0.4);
+}
+
+.hero-visual:before {
+  background: rgba(100, 116, 139, 0.08);
+}
+
+.pipe-node,
+.flow-node {
+  border-color: rgba(71, 85, 105, 0.25);
+  background: rgba(100, 116, 139, 0.06);
+}
+
+.pipe-node.active {
+  border-color: rgba(71, 85, 105, 0.5);
+  background: rgba(100, 116, 139, 0.10);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .archive-card {
+    transition: none;
+  }
+}
