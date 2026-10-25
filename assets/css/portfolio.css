@@ -313,3 +313,28 @@ h2 span,
     transition: none;
   }
 }
+
+/* PROFILE PHOTO BRAND */
+
+.brand-photo {
+  width: 42px;
+  height: 42px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 50%;
+  border: 1px solid rgba(20, 43, 74, 0.18);
+}
+
+.footer .brand-photo {
+  width: 42px;
+  height: 42px;
+}
+
+@media (max-width: 620px) {
+  .brand-photo {
+    width: 36px;
+    height: 36px;
+  }
+}
